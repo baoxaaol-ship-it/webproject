@@ -8,6 +8,7 @@ router.get('/', function (req, res) {
   console.log('/', req.session);
   fs.readFile('views/index.html', function (err, html) {
     res.write(html);
+    res.end(300);
   });
 });
 module.exports = router;

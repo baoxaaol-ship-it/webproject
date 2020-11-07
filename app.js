@@ -4,9 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// routes setup
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
 var app = express();
 
 // view engine setup
@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// view engin setup
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
@@ -39,3 +40,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+// "3300 port"
+// "npm start app.js"
+//

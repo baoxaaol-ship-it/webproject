@@ -1,0 +1,131 @@
+.top1area{
+    position: relative;
+    margin: 0px auto 0;
+    background: ;
+    border-bottom: 0px solid #ccc;
+    z-index: 11;
+    height:30px;
+    opacity: 1.0;
+}
+.top2area{
+    position: relative;
+    margin: 0px auto 0;
+    height: 100px;
+    background: ;
+    z-index: 10;
+}
+.top3area{
+    height: 50px;
+    line-height: auto;
+    font-size: 15px;
+    font-weight: bold;
+    word-spacing: -1px;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+.tarea_a {
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 370px;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 0;
+    text-align: center;
+}
+.tarea_b {
+    float: left;
+    width: 210px;
+    text-align: center;
+}
+.tarea_c {
+    float: right;
+    position: relative;
+    left: 0px;
+    width: 660px;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 0;
+    text-align: center;
+}
+
+.t2area_a{
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 100px;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 0;
+    text-align: center;
+}
+.t2area_b{
+    position: relative;
+    top: -10px;
+    float: right;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+.t2area_c{
+    float: right;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 100px;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 0;
+    text-align: center;
+}
+.logo{
+
+}
+.navf{
+    position: relative;
+    width: 100%;
+    margin: 0px auto 0;
+    border-top: 0px solid #777;
+    border-bottom: 0px solid #777;
+    min-width: 1240px;
+    z-index: 99;
+    background: ;
+    opacity: 1.0;
+    margin: 0 0 0px;
+}
+.category{
+    margin: 0 0 0px;
+    float: left;
+    text-align: center;
+    width:100%
+}
+.category.menu1{
+    position: relative;
+    /*z-index: 10;*/
+    float: left;
+    width : 90px;
+}
+.category.menu2{
+    position: relative;
+    float: left;
+    width : 50px;
+
+ }
+.category.menu1.a{
+    padding: 0px 0px 0px 0px;
+    color: #222;
+    text-decoration: none;
+}
+.ul1{
+    position: relative;
+    float:left;
+    margin-left: 15% ;
+}
+.ul2{
+    position: relative;
+    float:left;
+    width: auto;
+}
+ul{text-align: center;}
+li{list-style: none;     display: list-item;
+    text-align: -webkit-match-parent;}
