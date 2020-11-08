@@ -1,3 +1,7 @@
+/*header*/
+.bigtop{
+    margin-left: 300px; margin-right:300px;
+}
 .top1area{
     position: relative;
     margin: 0px auto 0;
@@ -45,7 +49,6 @@
     padding: 0px 0 0;
     text-align: center;
 }
-
 .t2area_a{
     float: left;
     position: relative;
@@ -59,8 +62,8 @@
 }
 .t2area_b{
     position: relative;
-    top: -10px;
-    float: right;
+    top: 0px;
+    float: left;
     width: 700px;
     height: 100px;
     text-align: center;
@@ -77,14 +80,12 @@
     text-align: center;
 }
 .logo{
-
 }
 .navf{
     position: relative;
     width: 100%;
     margin: 0px auto 0;
-    border-top: 0px solid #777;
-    border-bottom: 0px solid #777;
+
     min-width: 1240px;
     z-index: 99;
     opacity: 1.0;
@@ -126,7 +127,20 @@
     float:left;
     width: auto;
 }
+#search{
+    margin-left:40px;
+    margin-top:27px;
+    height:40px;
+    border: 5px solid #ff5252;
+}
 ul{text-align: center;}
 li{list-style: none;     display: list-item;
     text-align: -webkit-match-parent;}
 a{text-decoration: none;}
+body{ }
+
+
+/*body*/
+.wrap{
+    margin-left: 300px; margin-right: 300px;
+}
