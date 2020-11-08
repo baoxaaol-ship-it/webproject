@@ -41,5 +41,6 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 // "3300 port"
+// "npm install node"
 // "npm start app.js"
 //

@@ -22,8 +22,8 @@
     font-size: 15px;
     font-weight: bold;
     word-spacing: -1px;
-    border-top: 1px solid #777;
-    border-bottom: 1px solid #777;
+    /*border-top: 1px solid #777;*/
+    /*border-bottom: 1px solid #777;*/
 }
 .tarea_a {
     float: left;
