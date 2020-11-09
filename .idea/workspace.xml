@@ -31,11 +31,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fcda30a-c670-4418-b929-dd4dacffd39c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/makeHTML/self4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeHTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/makeHTML/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="seongho" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jolCAAGseMvrHt0j59m7YR8Ki4" />
@@ -94,7 +119,8 @@
       <updated>1604478195049</updated>
       <workItem from="1604478196111" duration="4780000" />
       <workItem from="1604761387563" duration="8905000" />
-      <workItem from="1604835949958" duration="6979000" />
+      <workItem from="1604835949958" duration="8505000" />
+      <workItem from="1604893811195" duration="2783000" />
     </task>
     <servers />
   </component>
@@ -106,7 +132,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="seongho" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="seongho" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -118,10 +171,11 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="522" y="249" key="#com.intellij.fileTypes.FileTypeChooser/1920.38.1920.1042/0.30.1536.834@0.30.1536.834" timestamp="1604765398109" />
-    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604480112193">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="2544" y="243" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604844144017">
+      <screen x="1920" y="38" width="1920" height="1042" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1604480112193" />
+    <state x="2544" y="243" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.38.1920.1042/0.30.1536.834@1920.38.1920.1042" timestamp="1604844144017" />
     <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1604761400489">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
