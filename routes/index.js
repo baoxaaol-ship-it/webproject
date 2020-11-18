@@ -20,3 +20,21 @@ router.get('/m', function (req, res) {
   });
 });
 module.exports = router;
+
+router.get('/JG', function (req, res) {
+  console.log('/JG', req.session);
+  fs.readFile('views/subpage/self5.html', function (err, html) {
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.end(html);
+  });
+});
+module.exports = router;
+
+router.get('/login', function (req, res) {
+  console.log('/login', req.session);
+  fs.readFile('views/login.html', function (err, html) {
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.end(html);
+  });
+});
+module.exports = router;
