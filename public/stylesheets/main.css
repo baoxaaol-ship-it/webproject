@@ -154,22 +154,17 @@ body{ }
     margin-left: 15%; margin-right: 15%;
 }
 .footermenu{
-    position: relative;
+    float:left; list-style:none; margin:1px;
+    width: 10%;
+}
+.footermenu a{
+    display:block; width:150px; height:40px;
+    text-align: center;
+    color: black;
     width: 100%;
-    margin: 0px auto 0;
-
-    min-width: 1240px;
-    z-index: 99;
-    opacity: 1.0;
-    margin: 0 0 0px;
+    font-size:small;
 }
-.footermenu a1{
-    position: relative;
-    top: 0px;
-    right: 0px;
-}
-.footermenu a2{
-    position: relative;
-    top: 0px;
-    right: 100px;
+.float-right{
+    margin-left: 2%;
+    font-size: smaller;
 }
