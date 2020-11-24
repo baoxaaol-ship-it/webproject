@@ -96,7 +96,7 @@
     margin: 0 0 0px;
     float: left;
     text-align: center;
-    width:69.3%;
+    width:1000px;
     background: #ff5252;
     color: #fff;
 }
@@ -107,17 +107,21 @@
     width : 90px;
 
 }
+.category.menu1.current{
+    color: #ff5252;
+    background: #FFFFFF;
+}
 .category.menu2{
     position: relative;
     float: left;
     width : 50px;
 
  }
-.category.menu1.a{
+/*.category.menu1.a{
     padding: 0px 0px 0px 0px;
     text-decoration: none;
     color: white;
-}
+}*/
 .ul1{
     position: relative;
     float:left;
@@ -158,4 +162,13 @@ body{ }
 /*body*/
 .wrap{
     margin-left: 15%; margin-right: 15%;
+}
+.tab-content{
+    display: none;
+    background: #FFFFFF;
+    padding: 12px;
+}
+
+.tab-content.current{
+    display: inherit;
 }

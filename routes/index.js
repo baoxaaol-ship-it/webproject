@@ -47,3 +47,39 @@ router.get('/login', function (req, res) {
   });
 });
 module.exports = router;
+
+router.get('/intro', function (req, res) {
+  console.log('/intro', req.session);
+  fs.readFile('views/subpage/introduction.html', function (err, html) {
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.end(html);
+  });
+});
+module.exports = router;
+
+router.get('/zocbo', function (req, res) {
+  console.log('/zocbo', req.session);
+  fs.readFile('views/subpage/zocbo.html', function (err, html) {
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.end(html);
+  });
+});
+module.exports = router;
+
+router.get('/notice', function (req, res) {
+  console.log('/notice', req.session);
+  fs.readFile('views/subpage/notice.html', function (err, html) {
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.end(html);
+  });
+});
+module.exports = router;
+
+router.get('/freeBoard', function (req, res) {
+  console.log('/freeBoard', req.session);
+  fs.readFile('views/subpage/freeBoard.html', function (err, html) {
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.end(html);
+  });
+});
+module.exports = router;
